@@ -1,8 +1,13 @@
-﻿# Overkill Docs
+﻿# OverkillDocs
 
-Editor colaborativo de documentos feito para fins de aprendizado e portfólio, construído com arquitetura limpa e princípios SOLID. O projeto foi projetado para operar em cenários de concorrência de recursos (edição colaborativa e alteração em tempo real), escalabilidade (execução em múltiplas instâncias) e baixo consumo de recursos para rodar em planos gratuitos em nuvem sem perda de funcionalidades.
+Editor colaborativo de documentos construído com arquitetura limpa e princípios SOLID. O projeto foi planejado para operar em cenários de concorrência de recursos (edição colaborativa e alteração em tempo real), escalabilidade (execução em múltiplas instâncias) e baixo consumo de recursos para rodar em planos gratuitos em nuvem sem perda de funcionalidades.
 
-O OverkillDocs tem recursos de criação de conta (dados pessoais e e-mail não são necessários, pois não é a finalidade do projeto), chat em tempo real e edição de documentos usando editor Markdown, inserção de imagens externas e vídeos do YouTube. A edição simultânea utiliza uma estratégia de bloqueio de fragmentos (locking) para garantir exclusividade durante a edição.
+O OverkillDocs tem recursos de criação de conta, chat e edição de documentos usando editor Markdown, inserção de imagens externas e vídeos do YouTube. A edição simultânea utiliza uma estratégia de bloqueio de blocos para garantir exclusividade durante a edição sem risco de deadlocks.
+
+
+![Edição de docummento](https://vitorang.github.io/Portfolio/projetos/overkilldocs-edit.jpg)
+![Perfil](https://vitorang.github.io/Portfolio/projetos/overkilldocs-profile.jpg)
+
 
 ## Tecnologias usadas
 
